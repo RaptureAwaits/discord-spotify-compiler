@@ -1,6 +1,6 @@
-import discord
+import discord # https://github.com/Rapptz/discord.py
 import sqlite3
-import spotipy
+import spotipy # https://github.com/plamere/spotipy
 import creds
 from datetime import datetime
 

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import discord # https://github.com/Rapptz/discord.py
 import sqlite3
 import spotipy # https://github.com/plamere/spotipy

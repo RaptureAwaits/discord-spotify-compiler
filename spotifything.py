@@ -37,7 +37,7 @@ def refresh_token(): # Ensures the bot always has valid spotify auth to make cha
 def spot_checks(before, after): # The meat of the program
     user = str(after)
     guild = after.guild
-    sound_role = guild.get_role(699545807338078248)
+    sound_role = guild.get_role(creds.role_id)
     user_roles = after.roles
     user_activities = []
 
